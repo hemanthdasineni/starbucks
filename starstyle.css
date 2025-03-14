@@ -1,0 +1,59 @@
+nav
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftbuttons,.rightbuttons
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border:none;
+}
+.aboutus
+{
+    background-color: #32462f;
+    margin-bottom: 20px;
+    overflow:hidden;
+    padding: 20px;
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    
+
+}
+.starbucksimages
+{
+    height:50vh;
+    float:left;
+    margin-right:20px;
+    
+}
+.footer
+{
+    text-align: center;
+    font-size: 30px;
+}
+.aboutsection
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#sndimg,#fthimg
+{
+    float: right;
+}
+.pagebutton
+{
+   border-radius: 25px; 
+   background-color: #32462f;
+   color: white;
+   height: 50px;
+   border-color: white;
+   font-size:30px ;
+ 
+}
+
+
+
